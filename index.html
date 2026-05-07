@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kunturi Hostel — Habitaciones privadas cómodas en Arica, Chile. La libertad del hostel con la tranquilidad de sentirte en casa." />
+  <title>Kunturi Hostel | Arica, Chile</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <div class="logo-mark">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M20 4L36 32H4L20 4Z" fill="#E85D04" opacity="0.9"/>
+            <path d="M20 12L30 30H10L20 12Z" fill="#F3EAD7" opacity="0.6"/>
+            <circle cx="20" cy="23" r="3" fill="#E85D04"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Kunturi</span>
+          <span class="logo-sub">Hostel · Arica</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#habitaciones">Habitaciones</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="#contacto" class="btn-reserva-nav">Reservar ahora</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#nosotros" class="mobile-link">Nosotros</a>
+      <a href="#habitaciones" class="mobile-link">Habitaciones</a>
+      <a href="#servicios" class="mobile-link">Servicios</a>
+      <a href="#ubicacion" class="mobile-link">Ubicación</a>
+      <a href="#galeria" class="mobile-link">Galería</a>
+      <a href="#contacto" class="mobile-link">Contacto</a>
+      <a href="#contacto" class="mobile-link cta">Reservar ahora →</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-pattern"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Arica, Norte de Chile</span>
+      </div>
+
+      <h1 class="hero-title">
+        Tu base para<br />
+        <em>explorar el norte</em><br />
+        sin complicaciones.
+      </h1>
+
+      <p class="hero-subtitle">
+        Habitaciones privadas cómodas, ambiente relajado y la libertad de un hostel —<br />
+        todo en el corazón de Arica.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contacto" class="btn-primary">Reservar mi estadía</a>
+        <a href="#habitaciones" class="btn-secondary">Ver habitaciones</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>⭐ 4.9</strong>
+          <span>en Google</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>100+</strong>
+          <span>huéspedes felices</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>Certificado</strong>
+          <span>por SERNATUR</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Descubre más</span>
+      <i data-lucide="chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ SERNATUR BANNER ═══════════════════════════════════════ -->
+  <div class="sernatur-banner">
+    <div class="sernatur-inner">
+      <div class="sernatur-logo-wrap">
+        <!-- SERNATUR Official Badge (SVG inline) -->
+        <svg viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="sernatur-svg" aria-label="Logo SERNATUR Chile">
+          <rect x="1" y="1" width="118" height="46" rx="5" fill="white" stroke="#003087" stroke-width="1.5"/>
+          <rect x="1" y="1" width="38" height="46" rx="5" fill="#003087"/>
+          <rect x="39" y="1" width="1" height="46" fill="#003087"/>
+          <text x="19.5" y="21" font-family="Arial" font-size="7" font-weight="bold" fill="white" text-anchor="middle">CHILE</text>
+          <text x="19.5" y="31" font-family="Arial" font-size="5.5" fill="#A8C757" text-anchor="middle">TURISMO</text>
+          <path d="M10 36 L19.5 39 L29 36" stroke="#E85D04" stroke-width="1.2" fill="none"/>
+          <text x="79" y="18" font-family="Arial" font-size="8.5" font-weight="bold" fill="#003087" text-anchor="middle">SERNATUR</text>
+          <text x="79" y="29" font-family="Arial" font-size="5.2" fill="#555" text-anchor="middle">Servicio Nacional de</text>
+          <text x="79" y="37" font-family="Arial" font-size="5.2" fill="#555" text-anchor="middle">Turismo · Chile</text>
+        </svg>
+      </div>
+      <div class="sernatur-text">
+        <strong>Hospedaje certificado por SERNATUR</strong>
+        <p>Kunturi Hostel está registrado y certificado por el Servicio Nacional de Turismo de Chile, garantizando estándares oficiales de calidad y seguridad para tu estadía.</p>
+      </div>
+      <div class="sernatur-badge">
+        <i data-lucide="shield-check"></i>
+        <span>Registro oficial</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ NOSOTROS ═══════════════════════════════════════ -->
+  <section class="section nosotros" id="nosotros">
+    <div class="container">
+      <div class="nosotros-grid">
+        <div class="nosotros-visual">
+          <div class="visual-card main-card">
+            <div class="img-placeholder andino">
+              <div class="placeholder-pattern"></div>
+              <div class="placeholder-label">
+                <i data-lucide="home"></i>
+                <span>Nuestro espacio</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-card accent-card">
+            <div class="img-placeholder desert">
+              <div class="placeholder-label small">
+                <i data-lucide="sun"></i>
+                <span>Arica te espera</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-badge">
+            <span class="badge-number">2024</span>
+            <span class="badge-label">Fundado con amor</span>
+          </div>
+        </div>
+
+        <div class="nosotros-content">
+          <div class="section-tag">Sobre nosotros</div>
+          <h2 class="section-title">Un lugar para <em>descansar</em>, no solo dormir.</h2>
+          <p class="body-text">
+            Kunturi nació de una idea simple: que viajar no debería significar sacrificar tu comodidad ni tu privacidad. Creamos un espacio donde puedes sentirte libre —como en un hostel— pero con la calidez de sentirte en casa.
+          </p>
+          <p class="body-text">
+            Estamos en Arica, una ciudad que tiene de todo: playa, desierto, cultura aymara, gastronomía y una energía que no encontrarás en ningún otro lugar de Chile. Nosotros somos tu punto de partida para explorarlo todo, con una cama cómoda esperándote al volver.
+          </p>
+          <div class="valores-grid">
+            <div class="valor-item">
+              <i data-lucide="heart"></i>
+              <span>Trato cercano</span>
+            </div>
+            <div class="valor-item">
+              <i data-lucide="unlock"></i>
+              <span>Total libertad</span>
+            </div>
+            <div class="valor-item">
+              <i data-lucide="leaf"></i>
+              <span>Ambiente auténtico</span>
+            </div>
+            <div class="valor-item">
+              <i data-lucide="map-pin"></i>
+              <span>Ubicación ideal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ HABITACIONES ═══════════════════════════════════════ -->
+  <section class="section habitaciones" id="habitaciones">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-tag">Alojamiento</div>
+        <h2 class="section-title">Tu espacio privado <em>en Arica</em></h2>
+        <p class="section-desc">Habitaciones pensadas para el viajero real. Privadas, cómodas y con todo lo que necesitas.</p>
+      </div>
+
+      <div class="rooms-grid">
+
+        <!-- Room 1 -->
+        <article class="room-card featured">
+          <div class="room-image">
+            <div class="img-placeholder room-solo">
+              <div class="placeholder-label">
+                <i data-lucide="user"></i>
+                <span>Habitación individual</span>
+              </div>
+            </div>
+            <div class="room-tag">Más popular</div>
+          </div>
+          <div class="room-body">
+            <h3 class="room-name">Habitación Individual Privada</h3>
+            <p class="room-desc">Tu propio espacio, tu propio ritmo. Cama cómoda, baño privado, aire acondicionado y total privacidad para recargar energías.</p>
+            <ul class="room-features">
+              <li><i data-lucide="wifi"></i> WiFi incluido</li>
+              <li><i data-lucide="wind"></i> Aire acondicionado</li>
+              <li><i data-lucide="lock"></i> Baño privado</li>
+              <li><i data-lucide="tv"></i> Smart TV</li>
+            </ul>
+            <div class="room-footer">
+              <div class="room-price">
+                <span class="price-from">desde</span>
+                <strong class="price-amount">$18.000</strong>
+                <span class="price-night">/ noche</span>
+              </div>
+              <a href="#contacto" class="btn-room">Reservar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Room 2 -->
+        <article class="room-card">
+          <div class="room-image">
+            <div class="img-placeholder room-doble">
+              <div class="placeholder-label">
+                <i data-lucide="users"></i>
+                <span>Habitación doble</span>
+              </div>
+            </div>
+          </div>
+          <div class="room-body">
+            <h3 class="room-name">Habitación Doble Privada</h3>
+            <p class="room-desc">Para viajeros en pareja o mejores amigos. Cama doble o dos camas, baño privado y espacio para guardar tus cosas con tranquilidad.</p>
+            <ul class="room-features">
+              <li><i data-lucide="wifi"></i> WiFi incluido</li>
+              <li><i data-lucide="wind"></i> Aire acondicionado</li>
+              <li><i data-lucide="lock"></i> Baño privado</li>
+              <li><i data-lucide="package"></i> Lockers</li>
+            </ul>
+            <div class="room-footer">
+              <div class="room-price">
+                <span class="price-from">desde</span>
+                <strong class="price-amount">$28.000</strong>
+                <span class="price-night">/ noche</span>
+              </div>
+              <a href="#contacto" class="btn-room">Reservar</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Room 3 -->
+        <article class="room-card">
+          <div class="room-image">
+            <div class="img-placeholder room-triple">
+              <div class="placeholder-label">
+                <i data-lucide="users-round"></i>
+                <span>Habitación grupal</span>
+              </div>
+            </div>
+          </div>
+          <div class="room-body">
+            <h3 class="room-name">Habitación Grupal Privada</h3>
+            <p class="room-desc">Perfecta para grupos de amigos o familia. Varias camas en una habitación privada. Toda la vibra del hostel, sin perder tu espacio.</p>
+            <ul class="room-features">
+              <li><i data-lucide="wifi"></i> WiFi incluido</li>
+              <li><i data-lucide="wind"></i> Aire acondicionado</li>
+              <li><i data-lucide="lock"></i> Baño privado</li>
+              <li><i data-lucide="package"></i> Lockers</li>
+            </ul>
+            <div class="room-footer">
+              <div class="room-price">
+                <span class="price-from">desde</span>
+                <strong class="price-amount">$42.000</strong>
+                <span class="price-night">/ noche</span>
+              </div>
+              <a href="#contacto" class="btn-room">Reservar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="rooms-note">
+        <i data-lucide="info"></i>
+        <span>Precios referenciales en CLP por noche. Consulta disponibilidad y ofertas especiales escribiéndonos directamente.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ SERVICIOS ═══════════════════════════════════════ -->
+  <section class="section servicios" id="servicios">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-tag">Servicios</div>
+        <h2 class="section-title">Todo lo que <em>necesitas</em></h2>
+        <p class="section-desc">Pensamos en cada detalle para que tu estadía sea cómoda, sin complicaciones.</p>
+      </div>
+
+      <div class="servicios-grid">
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="wifi"></i></div>
+          <h4>WiFi de alta velocidad</h4>
+          <p>Conexión rápida y estable en todas las áreas del hostel.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="utensils"></i></div>
+          <h4>Cocina equipada</h4>
+          <p>Cocina compartida con todo lo necesario para preparar tus comidas.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="sofa"></i></div>
+          <h4>Áreas comunes</h4>
+          <p>Espacios para relajarte, conectar con otros viajeros o simplemente descansar.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="thermometer-sun"></i></div>
+          <h4>Aire acondicionado</h4>
+          <p>Todas las habitaciones climatizadas para el calor del norte de Chile.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="shirt"></i></div>
+          <h4>Lavandería</h4>
+          <p>Servicio de lavado disponible para mantener tu ropa lista para el camino.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="package"></i></div>
+          <h4>Guardado de equipaje</h4>
+          <p>Guarda tus maletas antes del check-in o después del check-out.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="map"></i></div>
+          <h4>Info turística local</h4>
+          <p>Te contamos los mejores spots, playas, tours y restaurantes de Arica.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="clock"></i></div>
+          <h4>Check-in flexible</h4>
+          <p>Entendemos los ritmos del viaje. Coordinamos tu llegada sin estrés.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon"><i data-lucide="shield-check"></i></div>
+          <h4>Seguridad 24/7</h4>
+          <p>Hostel seguro con lockers y acceso controlado para tu tranquilidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ UBICACIÓN ═══════════════════════════════════════ -->
+  <section class="section ubicacion" id="ubicacion">
+    <div class="container">
+      <div class="ubicacion-grid">
+        <div class="ubicacion-content">
+          <div class="section-tag">Ubicación</div>
+          <h2 class="section-title">En el corazón de <em>Arica</em></h2>
+          <p class="body-text">
+            Arica es una ciudad única: tiene mar, desierto y montaña en un mismo lugar. Aquí puedes surfear por la mañana, visitar el Valle de Azapa al mediodía y terminar el día con una rica cena criolla.
+          </p>
+          <div class="arica-highlights">
+            <div class="highlight-item">
+              <i data-lucide="waves"></i>
+              <div>
+                <strong>Playas de clase mundial</strong>
+                <span>La Lisera, El Laucho, Playa Chinchorro — a minutos del hostel</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="landmark"></i>
+              <div>
+                <strong>Centro histórico</strong>
+                <span>Catedral San Marcos, Morro de Arica — todo a pie</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="mountain"></i>
+              <div>
+                <strong>Ruta Andina</strong>
+                <span>Valle de Azapa, Putre, Lago Chungará — excursiones épicas</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="bus"></i>
+              <div>
+                <strong>Conexión total</strong>
+                <span>Terminal de buses y aeropuerto a menos de 10 minutos</span>
+              </div>
+            </div>
+          </div>
+          <div class="address-box">
+            <i data-lucide="map-pin"></i>
+            <div>
+              <strong>Kunturi Hostel</strong>
+              <span>Arica, Región de Arica y Parinacota, Chile</span>
+              <a href="https://wa.me/56912345678" target="_blank" rel="noopener" class="address-link">Pídenos la dirección exacta por WhatsApp →</a>
+            </div>
+          </div>
+        </div>
+        <div class="ubicacion-map">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30116.12345678!2d-70.33282!3d-18.47822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915af2c85ca61887%3A0x4d47e6f2a0a19bfc!2sArica%2C%20Chile!5e0!3m2!1ses!2scl!4v1699999999999!5m2!1ses!2scl"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa Kunturi Hostel Arica">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ GALERÍA ═══════════════════════════════════════ -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-tag">Galería</div>
+        <h2 class="section-title">Mira cómo es <em>estar aquí</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <div class="img-placeholder g-comunes">
+            <div class="gallery-overlay">
+              <span>Áreas comunes</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder g-hab1">
+            <div class="gallery-overlay">
+              <span>Habitación doble</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder g-cocina">
+            <div class="gallery-overlay">
+              <span>Cocina compartida</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder g-playa">
+            <div class="gallery-overlay">
+              <span>Playa de Arica</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item tall">
+          <div class="img-placeholder g-morro">
+            <div class="gallery-overlay">
+              <span>Morro de Arica</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder g-exterior">
+            <div class="gallery-overlay">
+              <span>Fachada hostel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ TESTIMONIOS ═══════════════════════════════════════ -->
+  <section class="section testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-tag">Testimonios</div>
+        <h2 class="section-title">Lo que dicen <em>los viajeros</em></h2>
+      </div>
+
+      <div class="testimonios-grid">
+        <article class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Llegué sin esperar mucho y me fui enamorado del lugar. El ambiente es súper relajado, la habitación limpia y cómoda, y los dueños son una joya. Definitivamente vuelvo."</blockquote>
+          <div class="testimonio-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <strong>Matías R.</strong>
+              <span>Santiago, Chile 🇨🇱</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonio-card featured">
+          <div class="stars">★★★★★</div>
+          <blockquote>"El mejor hostel que encontré en Arica. Habitación privada a buen precio, el WiFi andaba genial para trabajar remote, y la ubicación es perfecta para moverse por la ciudad."</blockquote>
+          <div class="testimonio-author">
+            <div class="author-avatar">V</div>
+            <div>
+              <strong>Valentina C.</strong>
+              <span>Buenos Aires, Argentina 🇦🇷</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Super clean, cozy vibe and the host was really helpful with tips about the city. Had a great time exploring Arica from here. Highly recommend!"</blockquote>
+          <div class="testimonio-author">
+            <div class="author-avatar">J</div>
+            <div>
+              <strong>Jake T.</strong>
+              <span>Melbourne, Australia 🇦🇺</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Éramos tres amigas y encontramos la habitación grupal perfecta. Cómoda, con baño propio y un precio increíble. Arica nos encantó y el hostel fue parte de esa experiencia."</blockquote>
+          <div class="testimonio-author">
+            <div class="author-avatar">C</div>
+            <div>
+              <strong>Camila F.</strong>
+              <span>Medellín, Colombia 🇨🇴</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="review-cta">
+        <a href="https://g.page/r/kunturihostel/review" target="_blank" rel="noopener" class="btn-secondary">
+          <i data-lucide="star"></i>
+          Dejar una reseña en Google
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CONTACTO ═══════════════════════════════════════ -->
+  <section class="section contacto" id="contacto">
+    <div class="container">
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <div class="section-tag">Reservas y contacto</div>
+          <h2 class="section-title">¿Listo para <em>llegar</em>?</h2>
+          <p class="body-text">Escríbenos por WhatsApp, redes sociales o completa el formulario. Respondemos rápido y te ayudamos con todo lo que necesitas para tu llegada a Arica.</p>
+
+          <div class="contact-channels">
+            <a href="https://wa.me/56912345678?text=Hola! Quiero reservar en Kunturi Hostel" target="_blank" rel="noopener" class="channel-btn whatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Escribir por WhatsApp
+            </a>
+            <a href="https://instagram.com/kunturihostel" target="_blank" rel="noopener" class="channel-btn instagram">
+              <i data-lucide="instagram"></i>
+              @kunturihostel
+            </a>
+            <a href="mailto:hola@kunturihostel.cl" class="channel-btn email">
+              <i data-lucide="mail"></i>
+              hola@kunturihostel.cl
+            </a>
+          </div>
+
+          <div class="contact-info-items">
+            <div class="info-item">
+              <i data-lucide="clock-3"></i>
+              <div>
+                <strong>Check-in</strong>
+                <span>Flexible — coordínanos tu llegada</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i data-lucide="calendar-check"></i>
+              <div>
+                <strong>Reservas</strong>
+                <span>Directas · Sin comisiones · Confirmación inmediata</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacto-form">
+          <form class="reservation-form" id="reservationForm" novalidate>
+            <h3>Consulta o reserva</h3>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Tu nombre</label>
+                <input type="text" id="name" name="name" placeholder="¿Cómo te llamas?" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkin">Llegada</label>
+                <input type="date" id="checkin" name="checkin" required />
+              </div>
+              <div class="form-group">
+                <label for="checkout">Salida</label>
+                <input type="date" id="checkout" name="checkout" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="guests">Viajeros</label>
+                <select id="guests" name="guests">
+                  <option value="1">1 persona</option>
+                  <option value="2">2 personas</option>
+                  <option value="3">3 personas</option>
+                  <option value="4+">4 o más</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="room">Habitación</label>
+                <select id="room" name="room">
+                  <option value="">¿Cuál te interesa?</option>
+                  <option value="individual">Individual privada</option>
+                  <option value="doble">Doble privada</option>
+                  <option value="grupal">Grupal privada</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje (opcional)</label>
+              <textarea id="message" name="message" placeholder="¿Alguna pregunta o necesidad especial?" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span class="btn-text">Enviar consulta</span>
+              <i data-lucide="send"></i>
+            </button>
+
+            <p class="form-disclaimer">Te respondemos en menos de 2 horas ⚡</p>
+
+            <div class="form-success" id="formSuccess">
+              <i data-lucide="check-circle-2"></i>
+              <strong>¡Mensaje enviado!</strong>
+              <span>Te respondemos a la brevedad. ¡Nos vemos en Arica!</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="logo-mark small">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L36 32H4L20 4Z" fill="#E85D04" opacity="0.9"/>
+                  <path d="M20 12L30 30H10L20 12Z" fill="#F3EAD7" opacity="0.5"/>
+                  <circle cx="20" cy="23" r="3" fill="#E85D04"/>
+                </svg>
+              </div>
+              <div class="logo-text">
+                <span class="logo-name">Kunturi</span>
+                <span class="logo-sub">Hostel · Arica</span>
+              </div>
+            </div>
+            <p class="footer-tagline">La libertad de un hostel con la comodidad de sentirte en casa.</p>
+            <div class="footer-social">
+              <a href="https://instagram.com/kunturihostel" target="_blank" rel="noopener" aria-label="Instagram">
+                <i data-lucide="instagram"></i>
+              </a>
+              <a href="https://facebook.com/kunturihostel" target="_blank" rel="noopener" aria-label="Facebook">
+                <i data-lucide="facebook"></i>
+              </a>
+              <a href="https://wa.me/56912345678" target="_blank" rel="noopener" aria-label="WhatsApp">
+                <i data-lucide="message-circle"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navegación</h4>
+            <ul>
+              <li><a href="#nosotros">Sobre nosotros</a></li>
+              <li><a href="#habitaciones">Habitaciones</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#galeria">Galería</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Arica</h4>
+            <ul>
+              <li><a href="#ubicacion">Cómo llegar</a></li>
+              <li><a href="#ubicacion">Mapa</a></li>
+              <li><a href="#contacto">Reservas directas</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <ul>
+              <li>
+                <a href="https://wa.me/56912345678" target="_blank" rel="noopener">
+                  WhatsApp
+                </a>
+              </li>
+              <li><a href="mailto:hola@kunturihostel.cl">hola@kunturihostel.cl</a></li>
+              <li>Arica, Chile</li>
+            </ul>
+            <!-- SERNATUR mini badge in footer -->
+            <div class="footer-sernatur">
+              <svg viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Certificado SERNATUR">
+                <rect x="0.5" y="0.5" width="99" height="31" rx="4" fill="white" stroke="#003087" stroke-width="1"/>
+                <rect x="0.5" y="0.5" width="28" height="31" rx="4" fill="#003087"/>
+                <text x="14.5" y="13" font-family="Arial" font-size="5.5" font-weight="bold" fill="white" text-anchor="middle">CHILE</text>
+                <text x="14.5" y="21" font-family="Arial" font-size="4" fill="#A8C757" text-anchor="middle">TURISMO</text>
+                <text x="64" y="14" font-family="Arial" font-size="6.5" font-weight="bold" fill="#003087" text-anchor="middle">SERNATUR</text>
+                <text x="64" y="23" font-family="Arial" font-size="4" fill="#555" text-anchor="middle">Hospedaje Certificado</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2024 Kunturi Hostel · Arica, Chile. Todos los derechos reservados.</span>
+        <span>Hecho con ❤️ en el norte de Chile</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/56912345678?text=Hola! Me interesa reservar en Kunturi Hostel" target="_blank" rel="noopener" class="wa-float" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="wa-tooltip">¡Reserva por WhatsApp!</span>
+  </a>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
