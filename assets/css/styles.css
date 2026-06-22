@@ -552,6 +552,22 @@ em { font-style: normal; color: var(--naranja); }
 
 .sernatur-badge i { width: 16px; height: 16px; }
 
+/* SERNATUR imagen real */
+.sernatur-img {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0,48,135,.15));
+}
+
+.footer-sernatur-img {
+  width: 110px;
+  height: auto;
+  object-fit: contain;
+  /* Si el logo tiene fondo oscuro y se ve mal en footer negro: */
+  /* filter: brightness(0) invert(1); */
+}
+
 /* ─────────────────────────── NOSOTROS ─────────────────────────── */
 .nosotros { background: var(--beige); }
 
